@@ -1,0 +1,11 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = true
+	symlinks = false
+	ignorecase = true
+[remote "origin"]
+	url = https://github.com/cmu-db/bustub.git
+[remote "remote"]
+	url = https://github.com/jumptojap/CMU15445.git
+	fetch = +refs/heads/*:refs/remotes/remote/*
